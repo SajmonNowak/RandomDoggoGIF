@@ -1,0 +1,34 @@
+body {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/bones.jpg);
+}
+
+.heading {
+  color: brown;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0;
+}
+
+.imageContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnContainer {
+  display: flex;
+}
+
+.btn {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}
